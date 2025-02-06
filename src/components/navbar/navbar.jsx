@@ -9,12 +9,10 @@ const navbar = () => {
         <ul className='nav-menu'>
             <li>Home</li>
             <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>CV</li>
+            <li>Experience</li>
+            <li>Services</li>
             <li>Contact</li>
         </ul>
-        <div className="nav-connect">Connect with me</div>
     </div>
   )
 }
