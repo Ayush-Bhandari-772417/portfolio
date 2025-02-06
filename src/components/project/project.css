@@ -1,0 +1,106 @@
+.projects {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .projects-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px; /* Set a fixed height for the image container */
+    object-fit: contain; /* Resize the image to fit within the container */
+    background-color: #fff; /* Add a background color for better visibility */
+  }
+  
+  .project-content {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .project-content h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .project-content h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #555;
+  }
+  
+  .project-date {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .project-abstract {
+    font-size: 1rem;
+    color: #333;
+    flex-grow: 1;
+  }
+  
+  .read-more-btn {
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .read-more-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .demo-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .demo-link:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-card {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .project-image {
+      height: 150px; /* Adjust height for smaller screens */
+    }
+  }

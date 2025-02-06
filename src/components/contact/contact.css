@@ -1,0 +1,155 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 80px 170px;
+    padding: 20px;
+  }
+  
+  .contact-title {
+    position: relative;
+  }
+  
+  .contact-title h1 {
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ff6b6b, #3b82f6); /* Consistent gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-section {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .contact-left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff6b6b, #3b82f6); /* Consistent gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-left p {
+    max-width: 550px;
+    color: #555; /* Consistent text color */
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #555; /* Consistent text color */
+    font-size: 20px;
+  }
+  
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact-detail svg {
+    font-size: 24px;
+    color: #3b82f6; /* Consistent icon color */
+  }
+  
+  .contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  
+  .contact-right label {
+    color: #555; /* Consistent text color */
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .contact-right input,
+  .contact-right textarea {
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    background: #f4f4f4; /* Consistent background color */
+    color: #333; /* Consistent text color */
+  }
+  
+  .contact-right textarea {
+    height: 200px;
+    resize: vertical;
+  }
+  
+  .contact-submit {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ff6b6b, #3b82f6); /* Consistent gradient */
+    font-size: 22px;
+    padding: 20px 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-submit:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .contact {
+      margin: 40px 20px;
+      gap: 40px;
+    }
+  
+    .contact-title h1 {
+      font-size: 40px;
+      padding: 0 10px;
+    }
+  
+    .contact-section {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .contact-left h1 {
+      font-size: 40px;
+    }
+  
+    .contact-left p {
+      font-size: 18px;
+    }
+  
+    .contact-details {
+      font-size: 18px;
+    }
+  
+    .contact-right input,
+    .contact-right textarea {
+      width: 100%;
+      font-size: 18px;
+    }
+  
+    .contact-submit {
+      font-size: 18px;
+      padding: 15px 40px;
+    }
+  }
