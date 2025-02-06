@@ -17,14 +17,7 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <a
-          // href={resume} // Link to the resume file
-          // target='_blank' // Open in a new tab
-          // rel='noopener noreferrer' // Security best practice
-          // className='hero-resume'
-        >
-          My Resume
-        </a>
+        <a>My Resume</a>
       </div>
     </div>
   );
