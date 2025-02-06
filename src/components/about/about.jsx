@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css';
 import profileImg from '../../assets/aboutProfile.png';
-import resumePdf from '../../assets/resume.pdf'; // Import the resume file
 
 const About = () => {
     return (
@@ -29,10 +28,6 @@ const About = () => {
                             <p>Projects Completed</p>
                         </div>
                     </div>
-                    {/* Add a "My Resume" button
-                    <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="resume-button">
-                        My Resume
-                    </a> */}
                 </div>
             </div>
         </div>
